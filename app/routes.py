@@ -47,7 +47,7 @@ def extract():
     unstructured_data = "\n".join(text_collections)
 
     client = OpenAI(
-        api_key="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",
+        api_key="your-api-key",
     )
 
     response = client.chat.completions.create(
